@@ -25,8 +25,44 @@ A modern and responsive **Food Delivery Web App** built with **React** and **Tai
 
 ## 📂 Project Structure
 ```
-├── src/ │ ├── assets/ │ │ ├── admin_assets/ │ │ └── frontend_assets/ │ ├── components/ │ │ ├── AppDownload/ │ │ │ └── AppDownload.jsx │ │ ├── ExploreMenu/ │ │ │ └── ExploreMenu.jsx │ │ ├── FoodDisplay/ │ │ │ └── FoodDisplay.jsx │ │ ├── FoodItem/ │ │ │ └── FoodItem.jsx │ │ ├── Footer/ │ │ │ └── Footer.jsx │ │ ├── Header/ │ │ │ └── Header.jsx │ │ ├── LoginPopup/ │ │ │ └── LoginPopup.jsx │ │ └── Navbar/ │ │ └── Navbar.jsx │ ├── context/ │ │ └── StoreContext.jsx │ ├── pages/ │ │ └── Cart/ │ │ └── Cart.jsx ├── App.jsx ├── main.jsx ├── index.css ├── index.html ├── package.json ├── package-lock.json ├── vite.config.js ├── eslint.config.js ├── .gitignore └── README.md
-```
+food-delivery/
+├── src/
+│   ├── assets/
+│   │   ├── admin_assets/
+│   │   └── frontend_assets/
+│   ├── components/
+│   │   ├── AppDownload/
+│   │   │   └── AppDownload.jsx
+│   │   ├── ExploreMenu/
+│   │   │   └── ExploreMenu.jsx
+│   │   ├── FoodDisplay/
+│   │   │   └── FoodDisplay.jsx
+│   │   ├── FoodItem/
+│   │   │   └── FoodItem.jsx
+│   │   ├── Footer/
+│   │   │   └── Footer.jsx
+│   │   ├── Header/
+│   │   │   └── Header.jsx
+│   │   ├── LoginPopup/
+│   │   │   └── LoginPopup.jsx
+│   │   └── Navbar/
+│   │       └── Navbar.jsx
+│   ├── context/
+│   │   └── StoreContext.jsx
+│   └── pages/
+│       └── Cart/
+│           └── Cart.jsx
+├── App.jsx
+├── main.jsx
+├── index.css
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── eslint.config.js
+├── .gitignore
+└── README.md
+
 
 
 ---
