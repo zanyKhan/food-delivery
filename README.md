@@ -1,12 +1,50 @@
-# React + Vite
+# 🍔 Food Delivery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Food Delivery Web App** built with **React** and **Tailwind CSS**, designed to provide a smooth user experience for browsing food items and managing a shopping cart.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📋 **Browse Menu** – View different food items with images, descriptions, and prices.  
+- 🛒 **Cart Management** – Add or remove items from the cart using Context API.  
+- 🔄 **Real-time Updates** – Cart automatically updates with quantity and total price.  
+- 🎨 **Responsive UI** – Styled with Tailwind CSS for a clean and mobile-friendly design.  
+- ⚡ **Single Page Application (SPA)** – Smooth navigation between menu and sections.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** – Frontend framework  
+- **Context API** – State management for cart  
+- **Tailwind CSS** – Styling and responsive design  
+- **React Hooks** – For managing component logic  
+
+---
+
+## 📂 Project Structure
+```
+├── src/ │ ├── assets/ │ │ ├── admin_assets/ │ │ └── frontend_assets/ │ ├── components/ │ │ ├── AppDownload/ │ │ │ └── AppDownload.jsx │ │ ├── ExploreMenu/ │ │ │ └── ExploreMenu.jsx │ │ ├── FoodDisplay/ │ │ │ └── FoodDisplay.jsx │ │ ├── FoodItem/ │ │ │ └── FoodItem.jsx │ │ ├── Footer/ │ │ │ └── Footer.jsx │ │ ├── Header/ │ │ │ └── Header.jsx │ │ ├── LoginPopup/ │ │ │ └── LoginPopup.jsx │ │ └── Navbar/ │ │ └── Navbar.jsx │ ├── context/ │ │ └── StoreContext.jsx │ ├── pages/ │ │ └── Cart/ │ │ └── Cart.jsx ├── App.jsx ├── main.jsx ├── index.css ├── index.html ├── package.json ├── package-lock.json ├── vite.config.js ├── eslint.config.js ├── .gitignore └── README.md
+```
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/zanyKhan/food-delivery.git
+
+2. Navigate to the project folder
+   ```bash
+   cd food-delivery
+
+3. Install dependencies
+   ```bash
+   npm install
+
+4. Run the development server
+   ```bash
+   npm run dev
