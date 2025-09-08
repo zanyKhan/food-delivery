@@ -50,11 +50,15 @@ food-delivery/
 │   ├── context/
 │   │   └── StoreContext.jsx
 │   └── pages/
-│       └── Cart/
-│           └── Cart.jsx
-├── App.jsx
-├── main.jsx
-├── index.css
+│   |    └── Cart/
+│   |        └── Cart.jsx
+|   |   └── Home/
+│   |        └── Home.jsx
+|   |   └── PlaceOrder/
+│   |        └── PlaceOrder.jsx
+|   |   ├── App.jsx
+|   |   ├── main.jsx
+|   |   ├── index.css
 ├── index.html
 ├── package.json
 ├── package-lock.json
